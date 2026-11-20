@@ -1,0 +1,10 @@
+chisl = int(input())
+perv = chisl // 100
+vtor = (chisl // 10) % 10
+tret = chisl % 10
+print(perv, vtor, tret, sep="")
+print(perv, tret, vtor, sep="")
+print(vtor, perv, tret, sep="")
+print(vtor, tret, perv, sep="")
+print(tret, perv, vtor, sep="")
+print(tret, vtor, perv, sep="")
