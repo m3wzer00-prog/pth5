@@ -1,0 +1,5 @@
+perv_chislo = int(input()) 
+postouann_chislo = int(input())
+iscom = int(input())
+otvet = perv_chislo * (postouann_chislo ** (iscom - 1))
+print(otvet)
